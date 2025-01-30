@@ -13,11 +13,12 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "kwkvh"
+        default: "unifreq"
         type: choice
         options:
           - unifreq
           - codesnas
+          - kwkvh
       kernel_version:
         description: "Select kernel version"
         required: false
